@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<style>
+			.wrapper {
+				position: relative;
+				background-color: red;
+				/* border: 1px dashed red; */	
+				width: 500px;
+				height: 500px;
+			}
+			.content {
+				position: absolute;
+				background-color: yellow;
+				width: 200px;
+				height: 200px;
+				top: 50%;
+				left: 50%;
+				margin-top: -100px;
+				margin-left: -100px;
+			}
+		</style>
+    </head>
+    <body>
+	<!-- 处置水平居中 -->
+	<div class="wrapper">
+		<div class="content"></div>
+	</div>
+
+    <script>
+		// 闭包
+		// for(var i=0; i<5; i++) {
+		// 	(function(i) {
+		// 		console.log(i);
+		// 	})(i);
+		// }
+		// var wrapper = document.getElementById("wrapper");
+		// var content = document.getElementById("contnet");
+		// console.log(wrapper.style.width);
+		// console.log(content.style.width);
+    </script>
+    </body>
+</html>

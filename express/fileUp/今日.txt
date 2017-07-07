@@ -1,0 +1,16 @@
+必做:
+看妙味js
+写node到路由交换，尽量看完
+
+必做：
+复审PPT
+英语百词斩
+太阳鸟论文
+
+
+
+额外：
+原生js写ajax，分页，看300例js书
+
+
+npm install babel-cli babel-preset-es2015

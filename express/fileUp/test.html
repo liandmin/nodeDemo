@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function pattern(num) {
+            var str = "1";
+            var temp = [];
+            for (var i = 2; i <= num; i++) {
+                temp.length = i;
+                str += ("\n1" + temp.join("*") + i);
+            }
+            console.log(str);
+        }
+        pattern(10);
+    </script>
+</body>
+
+</html>
